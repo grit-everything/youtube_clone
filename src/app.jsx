@@ -13,7 +13,7 @@ class App extends Component {
     selectedVideo: null,
   };
   componentDidMount() {
-    this.handleSubmit('motivation');
+    this.handleSubmit('동기부여');
   }
 
   onVideoSelect = (video) => {
